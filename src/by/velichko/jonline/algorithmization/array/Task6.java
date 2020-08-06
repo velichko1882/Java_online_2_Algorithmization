@@ -22,6 +22,7 @@ public class Task6 {
 			numbers[i] = (rand.nextInt(1000) - 500) / 10D;
 		}
 
+		System.out.println("Source array:");
 		for (double d : numbers) {
 			System.out.print(d + "  ");
 		}
@@ -43,7 +44,7 @@ public class Task6 {
 			}
 		}
 		
-		System.out.println("Sum of numbers with simple index = " + sum);
+		System.out.println("The sum of numbers with a simple index = " + sum);
 	}
 
 }
