@@ -75,7 +75,7 @@ public class Task12 {
 			}
 		}
 
-		System.out.println("Sorted matrix by ascending of elements of string:");
+		System.out.println("Sorted matrix by descending of elements of string:");
 		for (int i = 0; i < numbers.length; i++) {
 			for (int j = 0; j < numbers[i].length; j++) {
 				System.out.printf("%5d", numbers[i][j]);
