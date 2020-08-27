@@ -20,6 +20,8 @@ public class Task4 {
 		
 		boolean isSorted = false;
 		
+		int countOfPermutation = 0;
+		
 		while (!isSorted) {
 			
 			isSorted = true;
@@ -31,11 +33,14 @@ public class Task4 {
 					numbers[i - 1] = numbers[i];
 					numbers[i] = temp;
 					isSorted = false;
+					countOfPermutation++;
 				}
 			}
 		}
 		
 		System.out.println("Sorted array with bubble sort: " + Arrays.toString(numbers));
+		
+		System.out.println("Number of permutations: " + countOfPermutation);
 	}
 
 }
